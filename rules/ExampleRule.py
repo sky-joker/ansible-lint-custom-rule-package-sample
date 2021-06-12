@@ -4,6 +4,7 @@ from ansiblelint.file_utils import Lintable
 from ansiblelint.rules import AnsibleLintRule
 import re
 
+
 class ExampleRule(AnsibleLintRule):
     id = "10000"
     shortdesc = "Shouldn't begin 'Example' in the name."
